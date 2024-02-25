@@ -2,7 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Lexer lex = new Lexer("/Users/kevinrvaz/Downloads/test/fail4.json");
+        Lexer lex = new Lexer("");
         Parser parser = new Parser(lex);
         try {
             if (parser.parseJSON()) {
